@@ -1,18 +1,41 @@
-## Getting Started
+🚗 Vehicle Rental Management System
+A robust, object-oriented Vehicle Rental System designed to handle vehicle inventories, customer rentals, pricing calculations, and return processing. This project demonstrates core Object-Oriented Programming (OOP) principles including Abstraction, Encapsulation, Inheritance, and Polymorphism.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+📑 Table of Contents
+Features
 
-## Folder Structure
+OOP Principles Applied
 
-The workspace contains two folders by default, where:
+Class Diagram & Architecture
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Getting Started
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Prerequisites
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Installation & Setup
 
-## Dependency Management
+Usage Example
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Project Structure
+
+Future Improvements
+
+✨ Features
+🚘 Vehicle Management: Add, update, and categorize vehicles (e.g., Cars, Motorcycles, Trucks/SUVs).
+
+👤 Customer & User Profiles: Manage customer credentials and rental history.
+
+📋 Rental Workflow: Process vehicle bookings, set rental durations, and update availability status in real-time.
+
+💰 Dynamic Price Calculation: Calculate daily rates, late return fees, and vehicle-specific surcharges (e.g., insurance, driver fees).
+
+🔄 Vehicle Return & Billing: Generate itemized invoices upon vehicle return.
+
+🧩 OOP Principles Applied
+Encapsulation: Vehicle attributes (e.g., isRented, dailyRate, licensePlate) are kept private and accessed strictly via getter/setter methods to protect system state.
+
+Inheritance: Base class Vehicle is extended by specific child classes (Car, Motorcycle, Truck) to reuse common code while defining specific attributes.
+
+Polymorphism: The calculateRentalCost(int days) method is overridden across different vehicle subclasses to apply custom rate multipliers and fee structures dynamically.
+
+Abstraction: Interfaces/Abstract classes (e.g., Rentable) define mandatory behavior without exposing complex internal implementation details.
